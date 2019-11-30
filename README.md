@@ -1,6 +1,6 @@
 # Nodejs 8 The Right Way - Practical Server Side JavaScript That Scales (2018)
 
-# Chapter 01 - Getting Up to Speed on Node.js 8
+# Chapter 01
 
 * Client Server
   ![](images/ex_server_client.png)
@@ -20,8 +20,8 @@
   * CylonJS (api)
 
 ## NodeJS Principles
-* As NodeJS developer your job is to create the callback functions.
 * NodeJS is an event-driven programming
+* As NodeJS developer your job is to create callback functions.
 
 ### Event Loop
 An event loop allows quick dispatching of operations when events are triggered.
@@ -38,7 +38,12 @@ An event loop allows quick dispatching of operations when events are triggered.
 * NodeJS is a single threaded environment.
 * Utilizes nonblocking APIs techniques to achieve the sense of parallelism (multithreading)
 
-# Chapter 02 - Wrangling The File System
+# Chapter 02
+## JS Principles
+
+* Functions are 1st class citizens. Therefore variable assignment is common.
+## NodeJS Principles
+* It is common to spawn separate processes to break up work.
 
 ### Syntax
 * `use strict` Recommended since ES5
@@ -69,7 +74,3 @@ An event loop allows quick dispatching of operations when events are triggered.
 
 ```
 * Support expression interpolation. Meaning expressions are evaluated
-
-# Chapter 03 - Networking With Sockets
-
-# Chapter 04 - Connecting Robust Microservices
